@@ -5,7 +5,7 @@ public class Pyramid {
         int height = 6;
         for (int row = 0; row < height; row++) {
             for (int column = 0; column <= row; column++) {
-                System.out.print("#");
+                System.out.print("*");
             }
             System.out.println();
         }
